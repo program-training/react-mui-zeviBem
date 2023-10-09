@@ -5,6 +5,7 @@ import BasicSelect from './components/selectChose/selectChose'
 import RadioChose from "./components/radioChose/radioChose";
 import IconCart from "./components/ShoppingCart/ShoppingCart";
 import BasicModal from "./components/Modal/modal";
+import TabsCenter from "./components/tabs/tabs";
 function App() {
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
       < RadioChose />
       < IconCart />
       < BasicModal />
-
+      < TabsCenter />
     </>
   );
 }
