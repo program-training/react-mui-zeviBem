@@ -1,10 +1,16 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
-
+import  MuiComponents  from "./components/page1/page1";
+import CheckBox from "./components/chose/chose";
+import BasicSelect from './components/selectChose/selectChose'
+import RadioChose from "./components/radioChose/radioChose";
 function App() {
   return (
     <>
-      <Example />{" "}
+      <MuiComponents />
+      < CheckBox />
+      < BasicSelect />
+      < RadioChose />
+
     </>
   );
 }
