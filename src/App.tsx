@@ -4,6 +4,7 @@ import CheckBox from "./components/chose/chose";
 import BasicSelect from './components/selectChose/selectChose'
 import RadioChose from "./components/radioChose/radioChose";
 import IconCart from "./components/ShoppingCart/ShoppingCart";
+import BasicModal from "./components/Modal/modal";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       < BasicSelect />
       < RadioChose />
       < IconCart />
+      < BasicModal />
 
     </>
   );
